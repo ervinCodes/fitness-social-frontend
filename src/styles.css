@@ -1,0 +1,26 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+.center-logo {
+    max-width: auto; /* Limit the image width to the container's width */
+    height: 50px; /* Maintain the image's aspect ratio */
+    /* Add any other image styling as needed */
+  }
+
+  body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.5)),
+      url("/public/assets/images/bg-weights.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+  }
+
+  .logo-container {
+    padding: 15px 20px;
+  }
+  
+  .signin-row {
+    height: 100px;
+  }
